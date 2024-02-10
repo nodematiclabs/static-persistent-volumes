@@ -1,0 +1,616 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 936.6979370117188
+  viewPortHeight: 625
+  horizontalOffset: -25
+  verticalOffset: -20
+addInfo:
+  stages:
+    - control: prepend
+      class: p-button-secondary
+      icon: pi pi-plus
+    - name: Define
+      id: define
+      progress: 100
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#689F38"
+      dates:
+        - 2024-02-10T19:47:13.372Z
+        - 2024-02-10T19:47:13.372Z
+      datesEnabled: false
+      taskLevelProgress: true
+      tasks:
+        - name: Task 1
+          progress: 100
+        - name: Task 2
+          progress: 100
+    - name: Measure
+      id: measure
+      progress: 0
+      details: ""
+      delayed: true
+      atRisk: true
+      blocked: true
+      color: "#D32F2F"
+      dates:
+        - 2024-02-10T19:47:13.372Z
+        - 2024-02-10T19:47:13.372Z
+      datesEnabled: false
+      taskLevelProgress: false
+      tasks:
+        - name: Task 1
+          progress: 0
+    - name: Anayze
+      id: analyze
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - 2024-02-10T19:47:13.372Z
+        - 2024-02-10T19:47:13.372Z
+      datesEnabled: false
+      taskLevelProgress: false
+      tasks:
+        - name: Task 1
+          progress: 0
+    - name: Improve
+      id: improve
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - 2024-02-10T19:47:13.372Z
+        - 2024-02-10T19:47:13.372Z
+      datesEnabled: false
+      taskLevelProgress: false
+      tasks:
+        - name: Task 1
+          progress: 0
+    - name: Control
+      id: control
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - 2024-02-10T19:47:13.372Z
+        - 2024-02-10T19:47:13.372Z
+      datesEnabled: false
+      taskLevelProgress: false
+      tasks:
+        - name: Task 1
+          progress: 0
+    - control: append
+      class: p-button-secondary
+      icon: pi pi-plus
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+height: 625
+connectors:
+  - id: Straight Connectoru0TPJ
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 341
+      y: 424
+    targetPoint:
+      x: 341
+      y: 403
+    sourceID: Persistent Volumen2Oab
+    targetID: Persistent Volume ClaimTZIko
+    addInfo:
+      viewConnector: 0
+    zIndex: 2
+  - id: Straight Connectoru0TPJn9rdW
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 276.24
+      y: 303
+    targetPoint:
+      x: 212.77
+      y: 254
+    sourceID: Persistent Volume ClaimTZIko
+    targetID: DeploymentLFTFg
+    addInfo:
+      viewConnector: 0
+    zIndex: 4
+  - id: Dashed Straight Connectordh3KH
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 542
+      y: 353
+    targetPoint:
+      x: 491
+      y: 353
+    sourceID: Storage ClassT5LnR
+    targetID: Persistent Volume ClaimTZIko
+    addInfo:
+      viewConnector: 0
+    zIndex: 6
+  - id: Straight Connectoru0TPJn9rdWHb81v
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 391
+      y: 303
+    targetPoint:
+      x: 440
+      y: 254
+    sourceID: Persistent Volume ClaimTZIko
+    targetID: DeploymentLFTFgUUJcB
+    addInfo:
+      viewConnector: 0
+    zIndex: 8
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300522/sds_logos/Kubernetes/Transparent/pv_Black_87_kzhmpg.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300521/sds_logos/Kubernetes/Transparent/pv_kbultf.png);"></div><div
+        class="c-text"><div class="c-title">Persistent Volume</div><div
+        class="c-short-description">Persistent disk in GCE</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Kubernetes</div></div></div></div></div>'
+    id: Persistent Volumen2Oab
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Persistent Volume
+        shortDescription: Persistent disk in GCE
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Persistent Volume
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Persistent Volume
+      editableName: Persistent Volume
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Persistent Volume
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300521/sds_logos/Kubernetes/Transparent/pv_kbultf.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300522/sds_logos/Kubernetes/Transparent/pv__044448_kdtt2z.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300522/sds_logos/Kubernetes/Transparent/pv_Black_87_kzhmpg.png
+      color: "#416bdd"
+      controlText: Persistent Volume
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 341
+    offsetY: 474
+    zIndex: 0
+    outEdges:
+      - Straight Connectoru0TPJ
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_Black_87_ysojs1.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_lpyf1t.png);"></div><div
+        class="c-text"><div class="c-title">Deployment</div><div
+        class="c-short-description">Application requiring a disk with existing
+        data</div><div class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Kubernetes</div></div></div></div></div>'
+    id: DeploymentLFTFg
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Deployment
+        shortDescription: Application requiring a disk with existing data
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Deployment
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Deployment
+      editableName: Deployment
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Deployment
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_lpyf1t.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300495/sds_logos/Kubernetes/Transparent/deploy__044448_pqowd7.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_Black_87_ysojs1.png
+      color: "#416bdd"
+      controlText: Deployment
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 148
+    offsetY: 204
+    zIndex: 1
+    inEdges:
+      - Straight Connectoru0TPJn9rdW
+  - shape:
+      type: HTML
+      content: "<div class=\"c-html\" style=\"background-color: #416bdd;\"><div
+        class=\"c-container\"><div class=\"c-image-primary\"
+        style=\"background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300522/sds_l\
+        ogos/Kubernetes/Transparent/pvc_Black_87_afobql.png);\"></div><div
+        class=\"c-image-original\" style=\"background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300522/sds_l\
+        ogos/Kubernetes/Transparent/pvc_sisz1d.png);\"></div><div
+        class=\"c-text\"><div class=\"c-title\">Persistent Volume
+        Claim</div><div class=\"c-short-description\">Persistent volume claim,
+        but one that doesn't dynamically provision storage</div><div
+        class=\"c-bottom\"><div class=\"c-hr p-mb-1\"></div><div
+        class=\"c-title-bottom\">Kubernetes</div></div></div></div></div>"
+    id: Persistent Volume ClaimTZIko
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Persistent Volume Claim
+        shortDescription: Persistent volume claim, but one that doesn't dynamically
+          provision storage
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Persistent Volume Claim
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Persistent Volume Claim
+      editableName: Persistent Volume Claim
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Persistent Volume Claim
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300522/sds_logos/Kubernetes/Transparent/pvc_sisz1d.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300522/sds_logos/Kubernetes/Transparent/pvc__044448_aff6fs.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300522/sds_logos/Kubernetes/Transparent/pvc_Black_87_afobql.png
+      color: "#416bdd"
+      controlText: Persistent Volume Claim
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 341
+    offsetY: 353
+    zIndex: 3
+    inEdges:
+      - Straight Connectoru0TPJ
+      - Dashed Straight Connectordh3KH
+    outEdges:
+      - Straight Connectoru0TPJn9rdW
+      - Straight Connectoru0TPJn9rdWHb81v
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300527/sds_logos/Kubernetes/Transparent/sc_Black_87_fubqan.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300526/sds_logos/Kubernetes/Transparent/sc_o1ztlf.png);"></div><div
+        class="c-text"><div class="c-title">Storage Class</div><div
+        class="c-short-description">Dictates how storage can be used and
+        setup</div><div class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Kubernetes</div></div></div></div></div>'
+    id: Storage ClassT5LnR
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Storage Class
+        shortDescription: Dictates how storage can be used and setup
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Storage Class
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Storage Class
+      editableName: Storage Class
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Storage Class
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300526/sds_logos/Kubernetes/Transparent/sc_o1ztlf.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300527/sds_logos/Kubernetes/Transparent/sc__044448_javdhm.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300527/sds_logos/Kubernetes/Transparent/sc_Black_87_fubqan.png
+      color: "#416bdd"
+      controlText: Storage Class
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 692
+    offsetY: 353
+    zIndex: 5
+    outEdges:
+      - Dashed Straight Connectordh3KH
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_Black_87_ysojs1.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_lpyf1t.png);"></div><div
+        class="c-text"><div class="c-title">Deployment</div><div
+        class="c-short-description">Application requiring a disk with existing
+        data</div><div class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Kubernetes</div></div></div></div></div>'
+    id: DeploymentLFTFgUUJcB
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Deployment
+        shortDescription: Application requiring a disk with existing data
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Deployment
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Deployment
+      editableName: Deployment
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Deployment
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_lpyf1t.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300495/sds_logos/Kubernetes/Transparent/deploy__044448_pqowd7.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_Black_87_ysojs1.png
+      color: "#416bdd"
+      controlText: Deployment
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 490
+    offsetY: 204
+    zIndex: 7
+    inEdges:
+      - Straight Connectoru0TPJn9rdWHb81v
+selectedItems:
+  width: 0
+  height: 0
